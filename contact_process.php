@@ -1,11 +1,11 @@
 <?php
 
-    $to = "pdarji576@gmail.com";
-    $from = $__REQUEST['email'];
-    $name = $__REQUEST['name'];
-    $subject = $__REQUEST['subject'];
-    $number = $__REQUEST['number'];
-    $cmessage = $__REQUEST['message'];
+    $to = "pdarji576s@gmail.com";
+    $from = $_REQUEST['email'];
+    $name = $_REQUEST['name'];
+    $subject = $_REQUEST['subject'];
+    $number = $_REQUEST['number'];
+    $cmessage = $_REQUEST['message'];
 
     $headers = "From:" $from;
 	$headers = "From: " . $from . "\r\n";
@@ -13,7 +13,7 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your Portfolio.";
+    $subject = "You have a message from your Your Portfolio.";
 
     $logo = 'img/logo.png';
     $link = '#';
