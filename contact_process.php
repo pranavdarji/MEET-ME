@@ -1,13 +1,13 @@
 <?php
 
     $to = "pdarji576@gmail.com";
-    $from = $_POST'email'];
+    $from = $_POST['email'];
     $name = $_POST['name'];
     $subject = $_POST['subject'];
     $number = $_POST['number'];
     $cmessage = $_POST['message'];
 
-    $headers = "From: $from";
+    $headers = "From:" $from;
 	$headers = "From: " . $from . "\r\n";
 	$headers .= "Reply-To: ". $from . "\r\n";
 	$headers .= "MIME-Version: 1.0\r\n";
